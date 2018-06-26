@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.24720.0
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2015
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Welo.Bot", "Welo.Bot\Welo.Bot.csproj", "{A8BA1066-5695-4D71-ABB4-65E5A5E0C3D4}"
 EndProject
@@ -37,6 +37,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Welo.IoC", "Welo.IoC\Welo.I
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Welo.GoogleDocsData", "Welo.GoogleDocsData\Welo.GoogleDocsData.csproj", "{B70829B2-5C3D-4DF4-B223-216FD49D6240}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Welo.WebApp", "Welo.WebApp\Welo.WebApp.csproj", "{ADE78016-5948-4717-BEE0-7F27615BF2EE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -71,9 +73,16 @@ Global
 		{B70829B2-5C3D-4DF4-B223-216FD49D6240}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B70829B2-5C3D-4DF4-B223-216FD49D6240}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B70829B2-5C3D-4DF4-B223-216FD49D6240}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADE78016-5948-4717-BEE0-7F27615BF2EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADE78016-5948-4717-BEE0-7F27615BF2EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADE78016-5948-4717-BEE0-7F27615BF2EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADE78016-5948-4717-BEE0-7F27615BF2EE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E20C1190-7BBF-411A-ACCB-987F8ECF7060}
 	EndGlobalSection
 	GlobalSection(CodealikeProperties) = postSolution
 		SolutionGuid = a168a081-e28b-41d3-bf2c-fab529bda0aa

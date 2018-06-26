@@ -11,10 +11,10 @@ namespace Welo.Application.Maps
         {
             CreateMap<StandardCommandModel, StandardCommandEntity>();
             CreateMap<LeadModel, LeadEntity>();
+            CreateMap<FilmeModel, FilmeEntity>();
             CreateMap<ResponseTriggerModel, ResponseTrigger>();
             CreateMap<InfoCommandMaskModel, InfoCommandMask>();
             CreateMap<TypeButtonModel, TypeButton>();
-
         }
     }
 }

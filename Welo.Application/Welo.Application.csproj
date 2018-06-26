@@ -188,11 +188,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AppServices\AppServiceBase.cs" />
+    <Compile Include="AppServices\FilmeAppService.cs" />
     <Compile Include="AppServices\FireBaseService.cs" />
     <Compile Include="AppServices\GoogleTextCommandsAppService.cs" />
     <Compile Include="AppServices\LeadAppService.cs" />
     <Compile Include="AppServices\StandardCommandsAppService.cs" />
     <Compile Include="Interfaces\IAppServiceBase.cs" />
+    <Compile Include="Interfaces\IFilmeAppService.cs" />
     <Compile Include="Interfaces\ILeadAppService.cs" />
     <Compile Include="Interfaces\IStandardCommandAppService.cs" />
     <Compile Include="Maps\AutoMapperConfig.cs" />
@@ -202,6 +204,7 @@
     <Compile Include="Models\CollectionOptionsModel.cs" />
     <Compile Include="Models\CommandTypeViewModel.cs" />
     <Compile Include="Models\ConfigModel.cs" />
+    <Compile Include="Models\FilmeModel.cs" />
     <Compile Include="Models\InfoCommandMaskModel.cs" />
     <Compile Include="Models\LeadModel.cs" />
     <Compile Include="Models\QuotesResponsesViewModel.cs" />

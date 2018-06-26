@@ -11,6 +11,7 @@ namespace Welo.Application.Maps
         {
             CreateMap<StandardCommandEntity, StandardCommandModel>();
             CreateMap<LeadEntity, LeadModel>();
+            CreateMap<FilmeEntity, FilmeModel>();
             CreateMap<ResponseTrigger, ResponseTriggerModel>();
             CreateMap<InfoCommandMask, InfoCommandMaskModel>();
 

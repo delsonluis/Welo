@@ -50,6 +50,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CommandsContext.cs" />
+    <Compile Include="FilmeRepository.cs" />
     <Compile Include="StandardCommandRepository.cs" />
     <Compile Include="LeadRepository.cs" />
     <Compile Include="ConfigurationsContext.cs" />

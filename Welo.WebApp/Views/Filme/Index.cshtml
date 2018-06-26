@@ -1,0 +1,46 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Lista de Filme</h2>
+
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <h3 class="panel-title">Lista</h3>
+    </div>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Nome</th>
+                <th>Ano</th>
+                <th>@Html.ActionLink("Novo", "Create")</th>
+            </tr>
+        </thead>
+        <tbody>
+            @if (ViewBag.List != null)
+            {
+                foreach (var item in ViewBag.List)
+                {
+                    <tr>
+                        <td>@item.Id</td>
+                        <td>@item.Nome</td>
+                        <td>@item.Ano</td>
+                        <td>
+                            @Html.ActionLink("Editar", "Edit", new { id = item.Id }) |
+                            @Html.ActionLink("Excluir", "Delete", new { id = item.Id })
+                        </td>
+                    </tr>
+                }
+            }
+            else
+            {
+                <tr>
+                    <td colspan="4">Nenhum registro encontrado.</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+

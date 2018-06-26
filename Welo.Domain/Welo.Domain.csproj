@@ -39,6 +39,7 @@
     <Compile Include="Entities\ConfigurationEntity.cs" />
     <Compile Include="Entities\Enums\CommandType.cs" />
     <Compile Include="Entities\Enums\TypeButton.cs" />
+    <Compile Include="Entities\FilmeEntity.cs" />
     <Compile Include="Entities\GDocs\GSheetQuery.cs" />
     <Compile Include="Entities\InfoCommandMask.cs" />
     <Compile Include="Entities\LeadEntity.cs" />
@@ -47,6 +48,7 @@
     <Compile Include="Entities\StandardCommandEntity.cs" />
     <Compile Include="Interfaces\IBotCommand.cs" />
     <Compile Include="Interfaces\IGSheetContext.cs" />
+    <Compile Include="Interfaces\Repositories\IFilmeRepository.cs" />
     <Compile Include="Interfaces\Repositories\ILeadRepository.cs" />
     <Compile Include="Interfaces\Repositories\IStandardCommandRepository.cs" />
     <Compile Include="Interfaces\Repositories\IConfigurationsRepository.cs" />
@@ -54,12 +56,14 @@
     <Compile Include="Interfaces\Repositories\Base\IRepositoryAsync.cs" />
     <Compile Include="Interfaces\Repositories\Base\IValidatableRepository.cs" />
     <Compile Include="Interfaces\Repositories\Base\IValidatableRepositoryAsync.cs" />
+    <Compile Include="Interfaces\Services\IFilmeService.cs" />
     <Compile Include="Interfaces\Services\IStandardCommandService.cs" />
     <Compile Include="Interfaces\Services\ILeadService.cs" />
     <Compile Include="Interfaces\Services\IServiceBase.cs" />
     <Compile Include="Models\Config.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Interfaces\Services\GSheets\IGSheetsService.cs" />
+    <Compile Include="Services\FilmeService.cs" />
     <Compile Include="Services\GSheets\CommandTextGoogle.cs" />
     <Compile Include="Services\GSheets\ICommandTextGoogle.cs" />
     <Compile Include="Services\LeadService.cs" />
