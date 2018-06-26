@@ -17,6 +17,10 @@ namespace Welo.IoC
                    .As<ILeadService>()
                    .InstancePerLifetimeScope();
 
+            builder.RegisterType<FilmeService>()
+                   .As<IFilmeService>()
+                   .InstancePerLifetimeScope();
+
             builder.RegisterType<BotCommandsService>()
                    .As<IStandardCommandService>()
                    .InstancePerLifetimeScope();

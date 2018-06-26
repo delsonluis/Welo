@@ -48,6 +48,7 @@ namespace Welo.Bot
             builder.RegisterType<RandomCommand>().As<IRandomCommand>().InstancePerLifetimeScope();
             builder.RegisterType<StartUpCommand>().As<IStartUpCommand>().InstancePerLifetimeScope();
             builder.RegisterType<SubscribeCommand>().As<ISubscribeCommand>().InstancePerLifetimeScope();
+            builder.RegisterType<FilmeCommand>().As<IFilmeCommand>().InstancePerLifetimeScope();
             builder.RegisterModule(new ReflectionSurrogateModule());
 
             builder.RegisterControllers(typeof(WebApiApplication).Assembly);

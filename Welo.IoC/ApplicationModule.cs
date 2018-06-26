@@ -23,6 +23,10 @@ namespace Welo.IoC
                       .As<ILeadAppService>()
                       .InstancePerLifetimeScope();
 
+            builder.RegisterType<FilmeAppService>()
+                      .As<IFilmeAppService>()
+                      .InstancePerLifetimeScope();
+
             builder.RegisterType<GSheetsService>().As<IGSheetsService>().InstancePerLifetimeScope();
             builder.RegisterType<CommandTextGoogle>().As<ICommandTextGoogle>().InstancePerLifetimeScope();
         }

@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Configuration;
 using System.IO;
 using LiteDB;
 using Welo.Data.Repository.LiteDB;
@@ -15,7 +16,8 @@ namespace Welo.Data
             get
             {
                 var appDomain = System.AppDomain.CurrentDomain;
-                var basePath = appDomain.BaseDirectory;
+                var pathDataFile = ConfigurationManager.AppSettings["pathDataFile"].ToString();
+                var basePath = pathDataFile ?? appDomain.BaseDirectory;
 
                 var pathDirectory = Path.Combine(basePath, "DataFile");
                 if (!Directory.Exists(pathDirectory))

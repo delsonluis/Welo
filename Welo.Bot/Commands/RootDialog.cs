@@ -35,6 +35,8 @@
                     _service = scope.Resolve<IHelpCommand>();
                 else if (messageText.Contains("subscribe"))
                     _service = scope.Resolve<ISubscribeCommand>();
+                else if (messageText.Contains("filme"))
+                    _service = scope.Resolve<IFilmeCommand>();
                 else
                     _service = scope.Resolve<IStartUpCommand>();
 

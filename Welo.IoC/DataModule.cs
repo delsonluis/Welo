@@ -19,6 +19,10 @@ namespace Welo.IoC
             builder.RegisterType<LeadRepository>()
                    .As<ILeadRepository>()
                    .InstancePerLifetimeScope();
+
+            builder.RegisterType<FilmeRepository>()
+                   .As<IFilmeRepository>()
+                   .InstancePerLifetimeScope();
         }
     }
 }

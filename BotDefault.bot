@@ -1,0 +1,15 @@
+{
+    "name": "BotDefault",
+    "description": "",
+    "secretKey": "",
+    "services": [
+        {
+            "appId": "6cacf5a9-3453-4d91-b00b-09b7cd000fcd",
+            "id": "2192c210-792f-11e8-95af-6fff51d7969e",
+            "type": "endpoint",
+            "appPassword": "FmgpFV9zBsRA3oGdFJJhcXp",
+            "endpoint": "http://localhost:3979/api/messages",
+            "name": "http://localhost:3979/api/messages"
+        }
+    ]
+}
